@@ -1,0 +1,35 @@
+/*.player-card{
+    display: inline-block;
+    border: 1px black;
+}*/
+  
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+  }
+  .flex-item{
+      width: 33%;
+  }
+
+  h1{
+font-family: 'Coda Caption', sans-serif;
+text-align: center;
+  }
+  
+
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #b71c1c;
+     box-shadow: 0 1px 0 0 #b71c1c;
+   }
+
+
+   .btn:hover{
+       background-color: #b71c1c
+   }
+   .btn:focus{
+       background-color: #b71c1c
+   }
+    .btn{
+       background-color: #b71c1c
+   }
